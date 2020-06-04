@@ -8,6 +8,18 @@ ul{
 a{
 	text-decoration: none;
 }
+#navbar {
+  /* overflow: hidden; */
+  background-color: #333;
+}.content {
+  padding: 16px;
+}.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}.sticky + .content {
+  padding-top: 60px;
+}
 .containers{
 	padding-left: 10px;
 		padding-right: 10px;
